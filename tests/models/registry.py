@@ -986,6 +986,9 @@ _MULTIMODAL_EXAMPLE_MODELS = {
     "NemotronH_Nano_VL_V2": _HfExamplesInfo(
         "nano_vl_dummy", is_available_online=False, trust_remote_code=True
     ),
+    "OmniAsrForConditionalGeneration": _HfExamplesInfo(
+        "facebook/omniASR-LLM-300M",
+    ),
     "OpenCUAForConditionalGeneration": _HfExamplesInfo(
         "xlangai/OpenCUA-7B", trust_remote_code=True
     ),
